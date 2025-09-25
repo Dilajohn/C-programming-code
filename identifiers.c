@@ -25,3 +25,39 @@
 //Invalid Identifiers: 2sum (starts with a digit), int (reserved keyword), m+n (contains special character '+')
 
 //Identifiers are the building blocks of a program that allow the programmer to uniquely name and refer to program elements
+
+//----Creating an Identifier for a Variable----
+
+#include <stdio.h>
+
+int main() {
+
+    // Creating an integer variable and
+    // assign it the identifier 'var
+    int var;
+
+    // Assigning value to the variable
+    // using assigned name
+    var  = 10;
+
+    
+    // Referring to same variable using 
+    // assigned name
+    printf("%d", var);
+
+    return 0;
+}
+//printf is a function that prints formatted output to the console.
+
+//The string "%d" is a format specifier where %d tells printf to expect an integer value.
+
+//var is the variable whose value will be printed in place of %d.
+
+//*****NOTE*****
+//printf functions by replacing format specifiers like %d with the
+//  corresponding values passed as additional arguments, allowing flexible and formatted displays
+
+//This line outputs the integer value stored in var.
+
+//----Creating an Identifier for a Function----
+
