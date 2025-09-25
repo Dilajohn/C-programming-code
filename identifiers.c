@@ -70,7 +70,7 @@ int sum(int a, int b) {
 
 }
 
-int main() {
+int test_main() {
     // Calling the function using its name
     printf("%d", sum(10, 20));
     return 0;
