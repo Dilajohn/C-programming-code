@@ -76,3 +76,25 @@ int test_main() {
     return 0;
 }
 
+// *****NOTE ****
+//The error "redefinition of 'main'" means that in your project,
+//  there is more than one main function defined.
+//  In C programming, there can be only one main function which acts as 
+// the entry point of the program.
+
+//Naming Conventions
+//In C programming, naming conventions are not strict rules but are commonly followed suggestions by the programming community for identifiers to improve readability and understanding of code. Below are some conventions that are commonly used:
+
+//----For Variables:--
+//Use camelCase for variable names (e.g., frequencyCount, personName).
+//Constants can use UPPER_SNAKE_CASE (e.g., MAX_SIZE, PI).
+//Start variable names with a lowercase letter.
+//Use descriptive and meaningful names.
+
+//---For Functions:---
+// Use camelCase for function names (e.g., getName(), countFrequency()).
+//Function names should generally be verbs or verb phrases that describe the action.
+
+//---For Structures:---
+//Use PascalCase for structure names (e.g., Car, Person).
+//Structure names should be nouns or noun phrases.
